@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	background-color: #330000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#textoInput {
+	display: block;
+	margin: auto;
+	margin-block: 20px;
+	padding: 15px;
+	border-radius: 5%;
+	border: 0;
+	resize: none;
+}
+
+#textoAreaText {
+	display: block;
+	margin: auto;
+	margin-block: 20px;
+	padding: 15px;
+	border-radius: 5%;
+	border: 0;
+	resize: none;
+	pointer-events: none;
+}
+
+#principal {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.btn {
+	padding: 15px 15px;
+	color: white;
+	font-size: 17px;
+	margin: 5px 20px;
+	border: 0;
+	border-radius: 10px;
+	transition: all 0.25s ease-in-out;
+	background-color: rgb(0, 0, 0);
+}
+
+.btn:hover {
+	background-color: #ffffff;
+	color: black;
+	transform: scale(1.1);
+	/* aumenta el tamaño del botón en un 10% */
+	cursor: pointer;
+}
+
+.btn:hover::before {
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+#titulo-pag-web {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	margin: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#content {
+	display: flex;
+}
+
+.box {
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+#redesSociales {
+	margin: 15px 40px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#redesSociales a {
+	text-decoration: none;
+	margin: 20px;
+	font-size: 20px;
+	color: black;
+}
+
+.btn btn-social{
+	margin: auto;
+}
+
+.github{
+	color: #ffffff;
+}
+.github:hover{
+	color: black;
+}
+.linkedin{
+	background-color: #0b63c4;
+}
+.links{
+	margin: 0px;
+}
